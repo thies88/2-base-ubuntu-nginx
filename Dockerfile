@@ -27,7 +27,6 @@ apt-get clean && \
 	/usr/share/info/* \
 	/var/cache/debconf/* \
 	/usr/share/man/* \
-	/usr/share/locale/* \
 	# clean nginx, we replace tese later on
 	/etc/nginx/sites-available/default \
 	/etc/nginx/nginx.conf
