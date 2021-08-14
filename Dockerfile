@@ -1,5 +1,4 @@
 # Runtime stage
-# IMPORTANT NOTE: libgl1-mesa-dri and libllvm10 are removed. In next image use: apt --fix-broken install to re-add 
 FROM thies88/1-base-ubuntu:focal
 
 ARG BUILD_DATE
@@ -26,7 +25,7 @@ apt-get clean && \
 	/usr/share/doc/* \
 	/usr/share/info/* \
 	/var/cache/debconf/* \
-	/usr/share/man/* \
+	/usr/share/man/* \ 
 	# clean nginx, we replace tese later on
 	/etc/nginx/sites-available/default \
 	/etc/nginx/nginx.conf
