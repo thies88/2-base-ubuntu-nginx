@@ -1,5 +1,5 @@
 # Runtime stage
-FROM thies88/1-base-ubuntu:focal
+FROM 1-base-ubuntu:focal
 
 ARG BUILD_DATE
 ARG VERSION
